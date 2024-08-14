@@ -1,0 +1,66 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "markdown",
+    "mdx",
+    "md",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "/node_modules": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/tmp": true,
+    "**/package-lock.lock": true
+  },
+  "remark.preview.showPreviewOptionInMenuBar": true,
+  "remark.preview.scrollPreviewWithEditor": true,
+  "workbench.colorCustomizations": {
+    "statusBar.noFolderBackground": "#222225",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editorBracketMatch.border": "#575B5F",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "docwriter.style": "DocBlock",
+  "docwriter.progress.trackFunctions": false,
+  "docwriter.progress.trackMethods": false
+}
