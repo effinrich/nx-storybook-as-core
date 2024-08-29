@@ -4,6 +4,12 @@
   "projectType": "application",
   "sourceRoot": "apps/portal-e2e/src",
   "implicitDependencies": ["portal"],
-  "// targets": "to see all targets run: nx show project portal-e2e --web",
-  "targets": {}
+  "targets": {
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventionalcommits"
+      }
+    }
+  }
 }
